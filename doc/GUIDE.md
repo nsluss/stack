@@ -1381,7 +1381,7 @@ Until now, everything we've done with stack has used a single-package project.
 However, stack's power truly shines when you're working on multi-package
 projects. All the functionality you'd expect to work just does: dependencies
 between packages are detected and respected, dependencies of all packages are
-just as one cohesive whole, and if anything fails to build, the build commands
+just as one cohesive whole, and if anything fails to build, the build command
 exits appropriately.
 
 Let's demonstrate this with the wai-app-static and yackage packages:
